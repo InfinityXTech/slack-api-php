@@ -1,0 +1,13 @@
+{
+    "name": "soixt/slack-api-php",
+    "description": "PHP package for Slack API.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "SlackApi\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
