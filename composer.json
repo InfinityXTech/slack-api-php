@@ -1,13 +1,21 @@
 {
     "name": "soixt/slack-api-php",
-    "description": "PHP package for Slack API.",
+    "description": "A PHP client for the Slack API.",
     "type": "library",
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.8"
+    },
     "autoload": {
         "psr-4": {
             "SlackApi\\": "src/"
         }
     },
-    "require": {
-        "guzzlehttp/guzzle": "^7.8"
-    }
+    "authors": [
+        {
+            "name": "SOIXT",
+            "email": "sasa@infinity-x.tech"
+        }
+    ],
+    "license": "MIT"
 }
