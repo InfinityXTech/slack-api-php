@@ -40,6 +40,8 @@ class SlackApiProvider {
     public function setToken (string $token) {
         $this->token = $token;
         $this->init();
+
+        return $this;
     }
 
     protected function init () {
