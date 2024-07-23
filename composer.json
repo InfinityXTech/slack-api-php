@@ -1,5 +1,5 @@
 {
-    "name": "soixt/slack-api-php",
+    "name": "infinityxtech/slack-api-php",
     "description": "A PHP client for the Slack API.",
     "type": "library",
     "require": {
@@ -13,8 +13,8 @@
     },
     "authors": [
         {
-            "name": "SOIXT",
-            "email": "sasa@infinity-x.tech"
+            "name": "InfinityXTech",
+            "email": "business@infinity-x.tech"
         }
     ],
     "license": "MIT"
